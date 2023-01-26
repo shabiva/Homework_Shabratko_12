@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson Bootstrap</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div id="conteiner" class="container">
+        <a class="navbar-brand text-warning" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Команда</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Галерея</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Новини</a>
+            </li>
+          </ul>
+          <a href="tel:+380662482493" class="btn btn-warning">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              width="20"
+            >
+              <path
+                d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+              />
+            </svg>
+            +380662482493
+          </a>
+        </div>
+      </div>
+    </nav>
+    <header class="header d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-info">Доброго вечора, Ми з України!</h1>
+            <p class="text-white">
+              Часто буває так, що зміст тексту не має великого значення, а
+              важливий тільки його обсяг або структура. Генератор тексту онлайн
+              дозволить отримати необхідну кількість слів, речень чи абзаців.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="team" class="border-bottom border-info">
+        <div class="container py-5">
+          <h2 class="text-center nb-2 mb-5">Наша команда</h2>
+          <div class="row">
+            <div class="col-lg-3 text-center">
+              <img
+                src="img/avatar.png"
+                alt="special"
+                class="border border-3 border-info nb-2 rounded-circle"
+              />
+              <h3>Іван Бульба</h3>
+              <p>Молодший джун</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <img
+                src="img/avatar.png"
+                alt="special"
+                class="border border-3 border-info nb-2 rounded-circle"
+              />
+              <h3>Іван Бульба</h3>
+              <p>Молодший джун</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <img
+                src="img/avatar.png"
+                alt="special"
+                class="border border-3 border-info nb-2 rounded-circle"
+              />
+              <h3>Іван Бульба</h3>
+              <p>Молодший джун</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <img
+                src="img/avatar.png"
+                alt="special"
+                class="border border-3 border-info nb-2 rounded-circle"
+              />
+              <h3>Іван Бульба</h3>
+              <p>Молодший джун</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="gallery" class="border-bottom border-info">
+        <div class="conteiner">
+          <h2 class="text-center nb-5">Галерея</h2>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/portfolio/portfolio-1.png"
+                class="d-block w-100"
+                alt="picture"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/portfolio/portfolio-2.png"
+                class="d-block w-100"
+                alt="picture"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/portfolio/portfolio-3.png"
+                class="d-block w-100"
+                alt="picture"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/portfolio/portfolio-4.png"
+                class="d-block w-100"
+                alt="picture"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/portfolio/portfolio-5.png"
+                class="d-block w-100"
+                alt="picture"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div id="news" class="py-5">
+        <div class-container py-5>
+          <h2 class="">Новини</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="img/blog/blog-news-1.jpeg"
+                  class="card-img-top"
+                  alt="news"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="img/blog/blog-news-2.jpg"
+                  class="card-img-top"
+                  alt="news"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="img/blog/blog-news-3.jpg"
+                  class="card-img-top"
+                  alt="news"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-5 p-3">
+        <button
+          type="button"
+          class="btn btn-info bs-cyan"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <span> Залишити заявку оператору</span>
+        </button>
+        <!-- Modal -->
+        <div
+          class="modal fade info"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Заявка</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <span> Я хочу приєднатися до вашої команди!:) </span>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary "
+                  data-bs-dismiss="modal"
+                >
+                  Закрити
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Відправити данні
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="icon p-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M192 64c0 35.3-28.7 64-64 64s-64-28.7-64-64S92.7 0 128 0s64 28.7 64 64zM25.9 233.4C29.3 191.9 64 160 105.6 160h44.8c27 0 51 13.4 65.5 34.1c-2.7 1.9-5.2 4-7.5 6.3l-64 64c-21.9 21.9-21.9 57.3 0 79.2L192 391.2V464c0 26.5-21.5 48-48 48H112c-26.5 0-48-21.5-48-48V348.3c-26.5-9.5-44.7-35.8-42.2-65.6l4.1-49.3zM576 64c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM431.6 200.4c-2.3-2.3-4.9-4.4-7.5-6.3c14.5-20.7 38.6-34.1 65.5-34.1h44.8c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6V464c0 26.5-21.5 48-48 48H496c-26.5 0-48-21.5-48-48V391.2l47.6-47.6c21.9-21.9 21.9-57.3 0-79.2l-64-64zM272 240v32h96V240c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l64 64c9.4 9.4 9.4 24.6 0 33.9l-64 64c-6.9 6.9-17.2 8.9-26.2 5.2s-14.8-12.5-14.8-22.2V336H272v32c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2z"
+            />
+          </svg>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="conteiner" class="container">
+          <a class="navbar-brand text-warning" href="#">UA PROJECT</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Telegram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Донат</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>
